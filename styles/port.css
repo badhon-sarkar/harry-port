@@ -54,3 +54,66 @@ nav ul li a{
     border-radius: 5px;
     border: none;
 }
+
+.dark-1{
+    color: #181818;
+}
+
+.dark-3{
+    color: #757575;
+}
+
+
+/* header */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* banner styles */
+.hda{
+    font-weight: 45px;
+    font-size: 600;
+}
+
+.hda-1{
+    font-size: 800;
+    font-weight: 85px;
+}
+
+.pda{
+    font-size: 400;
+    font-weight: 18px;
+}
+
+.btp-1{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+    padding: 19px 34px;
+    border-radius: 5px;
+    border: none;
+}
+.btp-2{
+    background-color: #ebcab2;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FD6E0A;
+    padding: 18px 26px;
+    border-radius: 5px;
+    border: none;
+}
+
+.pic{
+    width: 584px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-c{
+    max-width: 585px;
+}
